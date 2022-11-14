@@ -33,6 +33,8 @@
 		6C88E9452922693200B41574 /* NetworkAPIDefinition+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88E9442922693200B41574 /* NetworkAPIDefinition+Request.swift */; };
 		6C88E9472922695F00B41574 /* EmptyParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88E9462922695F00B41574 /* EmptyParameter.swift */; };
 		6C88E94B2922699700B41574 /* SearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88E94A2922699700B41574 /* SearchAPI.swift */; };
+		6C88E94D292269BA00B41574 /* SearchAPI+Docs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88E94C292269BA00B41574 /* SearchAPI+Docs.swift */; };
+		6C88E94F292269C700B41574 /* URLInfo+SearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88E94E292269C700B41574 /* URLInfo+SearchAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		6C88E9442922693200B41574 /* NetworkAPIDefinition+Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkAPIDefinition+Request.swift"; sourceTree = "<group>"; };
 		6C88E9462922695F00B41574 /* EmptyParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyParameter.swift; sourceTree = "<group>"; };
 		6C88E94A2922699700B41574 /* SearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAPI.swift; sourceTree = "<group>"; };
+		6C88E94C292269BA00B41574 /* SearchAPI+Docs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchAPI+Docs.swift"; sourceTree = "<group>"; };
+		6C88E94E292269C700B41574 /* URLInfo+SearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLInfo+SearchAPI.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +232,8 @@
 			isa = PBXGroup;
 			children = (
 				6C88E94A2922699700B41574 /* SearchAPI.swift */,
+				6C88E94C292269BA00B41574 /* SearchAPI+Docs.swift */,
+				6C88E94E292269C700B41574 /* URLInfo+SearchAPI.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -383,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C88E94B2922699700B41574 /* SearchAPI.swift in Sources */,
+				6C88E94F292269C700B41574 /* URLInfo+SearchAPI.swift in Sources */,
 				6C88E93D2922688000B41574 /* Network.swift in Sources */,
 				6C88E9472922695F00B41574 /* EmptyParameter.swift in Sources */,
 				6C88E93F292268A400B41574 /* NetworkAPI+URLInfo.swift in Sources */,
@@ -393,6 +400,7 @@
 				6C88E8EB2922649700B41574 /* AppDelegate.swift in Sources */,
 				6C88E93B2922684F00B41574 /* NetworkAPIDefinition.swift in Sources */,
 				6C88E8ED2922649700B41574 /* SceneDelegate.swift in Sources */,
+				6C88E94D292269BA00B41574 /* SearchAPI+Docs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
