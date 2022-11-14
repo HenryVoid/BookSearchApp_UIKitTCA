@@ -18,6 +18,7 @@
 		6C88E90E2922649800B41574 /* BookSearchApp_UIKitTCAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88E90D2922649800B41574 /* BookSearchApp_UIKitTCAUITestsLaunchTests.swift */; };
 		6C88E91C2922653400B41574 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 6C88E91B2922653400B41574 /* ComposableArchitecture */; };
 		6C88E91E2922653400B41574 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 6C88E91D2922653400B41574 /* Dependencies */; };
+		6C88E9212922656100B41574 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 6C88E9202922656100B41574 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C88E9212922656100B41574 /* Alamofire in Frameworks */,
 				6C88E91C2922653400B41574 /* ComposableArchitecture in Frameworks */,
 				6C88E91E2922653400B41574 /* Dependencies in Frameworks */,
 			);
@@ -150,6 +152,7 @@
 			packageProductDependencies = (
 				6C88E91B2922653400B41574 /* ComposableArchitecture */,
 				6C88E91D2922653400B41574 /* Dependencies */,
+				6C88E9202922656100B41574 /* Alamofire */,
 			);
 			productName = BookSearchApp_UIKitTCA;
 			productReference = 6C88E8E72922649700B41574 /* BookSearchApp_UIKitTCA.app */;
@@ -225,6 +228,7 @@
 			mainGroup = 6C88E8DE2922649700B41574;
 			packageReferences = (
 				6C88E91A2922653400B41574 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				6C88E91F2922656100B41574 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 6C88E8E82922649700B41574 /* Products */;
 			projectDirPath = "";
@@ -633,6 +637,14 @@
 				kind = branch;
 			};
 		};
+		6C88E91F2922656100B41574 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -645,6 +657,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6C88E91A2922653400B41574 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
 			productName = Dependencies;
+		};
+		6C88E9202922656100B41574 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C88E91F2922656100B41574 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
