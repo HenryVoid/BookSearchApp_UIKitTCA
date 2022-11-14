@@ -36,6 +36,7 @@
 		6C88E94D292269BA00B41574 /* SearchAPI+Docs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88E94C292269BA00B41574 /* SearchAPI+Docs.swift */; };
 		6C88E94F292269C700B41574 /* URLInfo+SearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88E94E292269C700B41574 /* URLInfo+SearchAPI.swift */; };
 		6C88E95229226B2600B41574 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6C88E95129226B2600B41574 /* Kingfisher */; };
+		6C88E95529226B5900B41574 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88E95429226B5900B41574 /* UIImageView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		6C88E94A2922699700B41574 /* SearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAPI.swift; sourceTree = "<group>"; };
 		6C88E94C292269BA00B41574 /* SearchAPI+Docs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchAPI+Docs.swift"; sourceTree = "<group>"; };
 		6C88E94E292269C700B41574 /* URLInfo+SearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLInfo+SearchAPI.swift"; sourceTree = "<group>"; };
+		6C88E95429226B5900B41574 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 		6C88E9372922665500B41574 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				6C88E95329226B4200B41574 /* Extension */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -238,6 +241,14 @@
 				6C88E94E292269C700B41574 /* URLInfo+SearchAPI.swift */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		6C88E95329226B4200B41574 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6C88E95429226B5900B41574 /* UIImageView+.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,6 +405,7 @@
 			files = (
 				6C88E94B2922699700B41574 /* SearchAPI.swift in Sources */,
 				6C88E94F292269C700B41574 /* URLInfo+SearchAPI.swift in Sources */,
+				6C88E95529226B5900B41574 /* UIImageView+.swift in Sources */,
 				6C88E93D2922688000B41574 /* Network.swift in Sources */,
 				6C88E9472922695F00B41574 /* EmptyParameter.swift in Sources */,
 				6C88E93F292268A400B41574 /* NetworkAPI+URLInfo.swift in Sources */,
